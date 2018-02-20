@@ -52,8 +52,8 @@ public class SubArray {
 	}
 	
 	public static void main(String[] args) {
-	    int [] input = {5,2,1,4,5,10,15,13,14,12,9,8};
-	    int expectedSum = 16;
+	    int [] input = {1, 2, 3, 4, 5, 6};
+	    int expectedSum = 7;
 	    combination(new SumObj(new int[0]), new SumObj(input), expectedSum);
 	}	
 	
