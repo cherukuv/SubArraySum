@@ -52,9 +52,20 @@ public class SubArray {
 	}
 	
 	public static void main(String[] args) {
-	    int [] input = {1, 2, 3, 4, 5, 6};
+	    	
+		System.out.println("Please enter array Length \n");
+		Scanner input = new Scanner(System.in);
+
+	        // Create a new array. The user enters the size
+	        int[] array = new int[input.nextInt()];
+
+	        System.out.println("Please enter elements seperated with single space \n");
+	        // Get the value of each element in the array
+	        for(int i = 0; i < array.length; i++)
+	            array[i] = input.nextInt();
+	    
 	    int expectedSum = 7;
-	    combination(new SumObj(new int[0]), new SumObj(input), expectedSum);
+	    combination(new SumObj(new int[0]), new SumObj(array), expectedSum);
 	}	
 	
 	
