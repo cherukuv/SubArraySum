@@ -1,6 +1,6 @@
 /*
  * Program: 
- * 1. Program that that accepts an array of integers, and prints out the distinct pairs of these integers that sum to 7
+ *   Program that that accepts an array of integers, and prints out the distinct pairs of these integers that sum to 7
  * User input:
  *             Please enter array Length 
  *             6
