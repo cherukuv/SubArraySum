@@ -1,4 +1,17 @@
-
+/*
+ * Program: 
+ * 1. Program that that accepts an array of integers, and prints out the distinct pairs of these integers that sum to 7
+ * User input:
+ *             Please enter array Length 
+ *             6
+ *             Please enter elements seperated with single space 
+ *             1 2 3 4 5 6
+ * Output:[1, 2, 4]
+ *        [1, 6]
+ *        [2, 5]
+ *        [3, 4]
+ * Author: vignan cheruku
+ */
 
 import java.util.Arrays;
 
